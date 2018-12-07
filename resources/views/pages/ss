@@ -1,0 +1,61 @@
+ <div class="col s12 m4">
+    <div class="sections aboutmes">
+      <div class="opaque-bg animated fadeInDown">
+        <p><span id="holder2"></span><span id="cursor" class="blinking-cursor2">!</span></p>
+      </div>
+    </div>
+    <!--end-->
+    <div class="sections background">
+      <h2  class="wow fadeInRight" data-wow-delay="0.6s">MAKE YOUR PRESENCE ON</h2>
+      <p  class="wow fadeInLeft" data-wow-delay="0.6s">
+      <span id="aug">AUG 31</span><br>
+     <span id="color">AND<span><br>
+      <span id="sep">1</span>
+      <span id="sep">SEP</span></p>
+  </div>
+  <div class="sections background">
+      <h2 id="legacy" class="wow fadeInLeft" data-wow-delay="0.6s">LEGACY’18</h2>
+      <p class="wow fadeInDown" data-wow-delay="0.6s">AN INTER COLLEGE CULUTRAL AND TALENT FEST</p>
+      <p class="wow fadeInDown" data-wow-delay="0.6s">PRESENTED BY</p>
+      <p class="wow fadeInRight" data-wow-delay="0.6s">MEPCO SCHLENK ENGG COLLEGE</P>
+  </div>
+  <div class="sectionss fp-auto-height">
+    <div class="footer">
+      <p>CONNECT WITH US</p>
+      <div class="social-links">
+        <p>mepcolegacy@gmail.com
+      </div>
+    </div>
+  </div>
+
+   <div class="sections background" data-anchor="timeline">
+    <div class="s12 m12">
+      <h2>KNOW IT</h2>
+      <div class="card" id="card">
+        <div class="card-image">
+              <img src="/images/background/4.png">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  @extends('layouts.default')
+@section('content')
+<div class="background">
+     <div class="container">  
+          <div class="row col s12 m12">
+             <h3>GENERAL INSTRUCTION</h3>
+               <div class="divider orange"></div>
+               <div class="divider orange"></div>
+               <div class="divider orange"></div>
+               <div class="divider orange"></div>
+               <ol type="square">
+                    <li>BONA FIDE CERTIFICATE IS MUST FOR PARTICIPATING IN LEGACY18 PLEASE PRODUCE YOUR ATTESTED BONA FIDE ON THE DAY OF LEGACY18</li><br>
+                    <li>FAILURE OF BONAFIDE SUBMISSION WILL RENDER YOU UNABLE TO PARTICIPATE IN THE EVENTS</li><br>
+                    <li>ID CARD IS A MUST</li><br>
+                    <li>KINDLY SEND THE EVENT RELATED QUERIES TO THE CORRESPONDING EMAIL IDS AND GENERAL QUERIES TO THE LEGACY 18 OFFICIAL ID</li><br>
+               </ol>
+          </div>
+     </div>
+</div>
+@endsection

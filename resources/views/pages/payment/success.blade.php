@@ -1,0 +1,12 @@
+@extends('layouts.default')
+
+@section('content')
+    <div class="col offset-m2 m8 s12">
+        <p class="center-align"><i class="fa fa-thumbs-o-up" style="font-size: 200px;margin-top:60px;"></i></p>
+        <h4 class="center-align">{{ $info }}</h4>
+        <p class="center-align">
+            {{ link_to_route('pages.dashboard', 'GO TO CART', null, ['class' => 'btn btn-large waves-light waves-effect green']) }}
+           <br> {{ link_to_route('pages.payment.reciept', 'Download Payment Reciept', null, ['class' => 'waves-effect waves-light btn green']) }}
+        </p>
+    </div>
+@endsection

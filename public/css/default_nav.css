@@ -1,0 +1,21 @@
+.fa-bars {
+    color: black;
+    float: right;
+    padding-right: 20px;
+    padding-top: 0px;
+    position: fixed;
+    right: 0;
+    z-index: 500;
+    cursor: pointer;
+}
+
+.fa-bars:hover {
+    color: #ff8533;
+    float: right;
+    padding-right: 20px;
+    padding-top: 0px;
+    position: fixed;
+    right: 0;
+    z-index: 500;
+    cursor: pointer;
+}
